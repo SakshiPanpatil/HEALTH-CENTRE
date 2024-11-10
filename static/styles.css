@@ -1,0 +1,75 @@
+/* Navbar Logo */
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+/* Logo Image */
+.myimg {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+/* Card Design */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Form Styling */
+.form-label {
+    font-weight: 600;
+}
+
+.form-control,
+.form-select {
+    padding: 0.75rem 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25);
+}
+
+/* Button Styling */
+.btn-dark {
+    background-color: #4a90e2;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 0.75rem;
+}
+
+.btn-dark:hover {
+    background-color: #4a90e2;
+    color: #e9ecef;
+}
+
+/* Layout Adjustments */
+.container {
+    margin-top: 50px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
